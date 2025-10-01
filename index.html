@@ -32,6 +32,19 @@ nav.grid{display:flex;flex-direction:column;gap:10px}
 
 footer{color:var(--muted);text-align:center;font-size:13px;margin-top:8px}
 
+.img-hero{
+    display:flex;
+    justify-content:center;
+    margin:14px 0;
+}
+.img-hero img{
+    width:100%;
+    max-width:600px;
+    border-radius:14px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.5);
+}
+
+    
 /* mobile tweaks */
 @media(min-width:520px){
 h1{font-size:24px}
@@ -43,10 +56,14 @@ h1{font-size:24px}
 <div class="wrap">
 <div class="card">
 <header>
-    <!-- Logo eliminat -->
     <h1>Proiect: Living in Space — Bază marțiană</h1>
     <p class="lead">Alege o secțiune pentru a citi detaliile — interfață optimizată pentru telefon.</p>
 </header>
+
+<!-- Imaginea adăugată aici -->
+<div class="img-hero">
+    <img src="poze/bazaM.jpeg" alt="Bază marțiană">
+</div>
 
 
 <nav class="grid" style="margin-top:12px">
